@@ -1,3 +1,6 @@
+#Define a function called myfunc that takes in a string, and returns a matching string where every even letter is uppercase, and every odd letter is lowercase. 
+def myfunc(opposite):
+    i = ran
 #lesseroftwo
 def lesser_of_the_two(a,b):
     if a%2 == 0 and b%2 == 0 and a < b: 
@@ -33,6 +36,14 @@ def ints(input):
          a = a + char*3 
     return a
 
-
+#BLACKJACK: Given three integers between 1 and 11, if their sum is less than or equal to 21, return their sum. If their sum exceeds 21 and there's an eleven, reduce the total sum by 10. Finally, if the sum (even after adjustment) exceeds 21, return 'BUST'
+def guess(a,b,c):
+    if a + b + c <= 21:
+        return a + b + c
+    elif a + b + c > 21 and a == 11 or b ==11 or c == 11:
+        return a + b + c - 11 
+    elif a + b + c > 21:
+        return "BUST"
     
-
+    
+    
