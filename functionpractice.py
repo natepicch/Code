@@ -27,6 +27,11 @@ def ints(input):
             return 'False'
 
 #PAPER DOLL: Given a string, return a string where for every character in the original there are three characters
-    
+ def triple(string):
+     a = ''
+     for char in string:
+         a = a + char*3 
+    return a
+
     
 
