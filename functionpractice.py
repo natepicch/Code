@@ -29,9 +29,10 @@ def ints(input):
 #PAPER DOLL: Given a string, return a string where for every character in the original there are three characters
  def triple(string):
      a = ''
-     for char in string:
+     for char in string: #takes each interable for the string put into the function and stores it in char 1 by 1
          a = a + char*3 
     return a
+
 
     
 
